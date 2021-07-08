@@ -1,19 +1,19 @@
 public class HomeWorkApp {
     public static void main(String[] args) {
     }
-    void printThreeWords() {
+    static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
-    void checkSumSign(){
+    static void checkSumSign(){
         int a = 50 , b = -51;
         if (a+b >= 0)
             System.out.println("Сумма положительна");
         else
             System.out.println("Сумма отрицательна");
     }
-    void printColor(){
+    static void printColor(){
         int value = (int) (Math.random()*1000) -200; //Random value, possibly negative
         if (value <= 0 )
             System.out.println("Красный");
@@ -22,7 +22,7 @@ public class HomeWorkApp {
         else
             System.out.println("Зеленый");
     }
-    void compareNumbers(){
+    static void compareNumbers(){
         int a = 5 , b = 7;
         if (a>=b)
             System.out.println("a>=b");
