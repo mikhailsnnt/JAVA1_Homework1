@@ -22,4 +22,11 @@ public class HomeWorkApp {
         else
             System.out.println("Зеленый");
     }
+    void compareNumbers(){
+        int a = 5 , b = 7;
+        if (a>=b)
+            System.out.println("a>=b");
+        else
+            System.out.println("a<b");
+    }
 }
